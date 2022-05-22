@@ -1,0 +1,76 @@
+/* "*" CSS Selector */
+/* ";" Delimeter */
+/* use "." when calling the class */
+/* use "#" when calling the id */
+* { 
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h2{
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile {
+	height: 250px;
+	width: 230px;
+}
+
+#landing {
+	/* vh - viewport height | measured percentage of the height of the device you viewing you webpage is (screen dimension?) */
+	height: 80vh;
+
+	/* arranges elements inside the parent element, will allow us to layout our elements inside our landing section*/
+	display: flex;
+
+	/* directs the elements inside display: flex*/
+	flex-direction: column;
+
+	/* centering elements horizontally if flex-direction is in column*/
+	align-items: center;
+
+	/* centering elements vertically */
+	justify-content: center;
+}
+
+/*.jumbotron {
+	background-color: lightgray;
+}*/
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 75vh;
+	border-raduis: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	color: #007bff;
+}
+
+.tools {
+	border: 5px solid #f2f2f2;
+
+	/*space outside the element*/
+	margin: 20px;
+
+	/*space inside the element*/
+	padding: 25px;
+
+	height: 200px;
+
+	/*based on the total width of the parent element*/
+	width: 75%;
+
+	color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
